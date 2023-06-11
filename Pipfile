@@ -12,6 +12,7 @@ scikit-learn = "*"
 jupyter = "*"
 mlflow = "*"
 optuna = "*"
+prefect = "*"
 
 [dev-packages]
 
