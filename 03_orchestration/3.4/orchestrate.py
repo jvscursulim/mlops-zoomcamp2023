@@ -111,8 +111,8 @@ def train_best_model(
 
 @flow
 def main_flow(
-    train_path: str = "./data/green_tripdata_2021-01.parquet",
-    val_path: str = "./data/green_tripdata_2021-02.parquet",
+    train_path: str = "./data/green_tripdata_2022-01.parquet",
+    val_path: str = "./data/green_tripdata_2022-02.parquet",
 ) -> None:
     """The main training pipeline"""
 
@@ -129,7 +129,6 @@ def main_flow(
 
     # Train
     train_best_model(X_train, X_val, y_train, y_val, dv)
-
 
 if __name__ == "__main__":
     main_flow()
