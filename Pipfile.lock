@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5e56c0b4c9552e5decf604657143cd966e890755e53c8478df1f25ff8dd77da7"
+            "sha256": "bf5d2f5bfa2b922e1dc1e880190c58827557bf7747a485aa14fcd5915bbbb000"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -598,11 +598,11 @@
         },
         "fastapi": {
             "hashes": [
-                "sha256:22d773ce95f14f04f8f37a0c8998fc163e67af83b65510d2879de6cbaaa10215",
-                "sha256:5c1d243030e63089ccfc0aec69c2da6d619943917727e8e82ee502358d5119bf"
+                "sha256:95d757511c596409930bd20673358d4a4d709004edb85c5d24d6ffc48fabcbf2",
+                "sha256:b53248ee45f64f19bb7600953696e3edf94b0f7de94df1e5433fc5c6136fa986"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.96.1"
+            "version": "==0.97.0"
         },
         "fastjsonschema": {
             "hashes": [
@@ -1571,6 +1571,14 @@
             ],
             "index": "pypi",
             "version": "==2.10.13"
+        },
+        "prefect-email": {
+            "hashes": [
+                "sha256:267447c9090068b5b5cbe18cde239b87126117237473325bd002d0fa181e0f2a",
+                "sha256:932ee5e99bc74e59264b0ddb33f6218bcce5a8c08392ef1c936a42d4744b529e"
+            ],
+            "index": "pypi",
+            "version": "==0.2.2"
         },
         "prometheus-client": {
             "hashes": [

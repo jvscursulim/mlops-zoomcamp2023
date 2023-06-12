@@ -14,6 +14,7 @@ mlflow = "*"
 optuna = "*"
 prefect = "*"
 xgboost = "*"
+prefect-email = "*"
 
 [dev-packages]
 
